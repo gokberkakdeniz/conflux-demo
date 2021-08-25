@@ -1,0 +1,87 @@
+.app {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.now {
+  display:inline-block;
+  background-color: goldenrod;
+  border-radius: 8px;
+  border-width: 1px;
+  padding: 2px 4px;
+  font-weight: bold;
+  color: black;
+  min-width: calc(24vmin);
+}
+
+.name {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+.dispatch {
+  font-weight: bold;
+  cursor: pointer;
+  background: inherit;
+  border: none;
+  color: inherit;
+}
+
+.dispatch:hover {
+  color: slategray;
+}
+
+.component {
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: tomato;
+  padding: 8px;
+  margin: 16px;
+}
+
+.inner {
+  border-color: pink;
+}
+
+.seperated {
+  font-size: 16px;
+  font-family: mono;
+  border-top: 1px solid tomato;
+  padding-top: 24px;
+}
+
+.loginForm {
+  margin-top: 16px;
+}
+
+.loginForm .error {
+  color: red;
+  font-size: 2vmin;
+  font-weight: 700;
+}
+
+.loginForm button {
+  font-size: 2vmin;
+}
+
+button {
+  margin: 4px;
+  min-width: 70px;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+}
+
+label span {
+  font-size: 2vmin;
+  display: block;
+  margin: 0;
+}
+
