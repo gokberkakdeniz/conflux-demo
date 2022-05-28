@@ -2,7 +2,7 @@
 
 Experimental implementation of Flux Pattern in React using Context, Hooks, Reducers.
 
-Live demo is [here](https://conflux-demo.vercel.app/).
+Live demo is [here](https://akdeniz.dev/experiments/conflux/).
 
 **Note:** This is just an experimental/educational project and not tested in any real project. Do not follow this blindly.
 
